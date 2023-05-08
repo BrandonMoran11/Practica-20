@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose');//intyeccion de la dependecia mongoose
 let personSchema = new mongoose.Schema({// decimos que personSchema es una nuevo schema de mongoose con las keys de nombre, edad ,tipo sangre, nss
     nombre: String,
     edad: Number,
